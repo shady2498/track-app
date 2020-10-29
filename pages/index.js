@@ -14,12 +14,12 @@ export default function Home() {
 				<h1>Soemaknfjkashd</h1>
 			</div> */}
 
-			{/* <SignUp /> */}
+			<SignUp />
 			{/* <SignIn /> */}
 			{/* <Notifications /> */}
 			{/* <Vehicles /> */}
 			{/* <Recordings /> */}
-			<Search />
+			{/* <Search /> */}
 		</>
 	);
 }

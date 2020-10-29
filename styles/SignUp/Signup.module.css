@@ -1,5 +1,3 @@
-
-
 .login-bg-img {
     background: url("/public/img/louis-tricot-rHk5uvsnCn4-unsplash.jpg");
     background-size: cover;
@@ -52,7 +50,7 @@
     border-bottom: 2px solid #ccc;
 }
 
-.input--style-1 {
+.input__style_1 {
     padding: 100px 0;
     color: #666;
     margin-bottom: 15px;
@@ -181,4 +179,4 @@
         margin-right: 0px;
         margin-top: 0px;
     }
-}
+} 
