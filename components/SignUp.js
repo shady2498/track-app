@@ -1,4 +1,6 @@
-import styles from '../styles/SignUp/Signup.module.css';
+import "bootstrap/dist/css/bootstrap.css";
+
+import styles from "../styles/SignUp/Signup.module.css";
 import React from "react";
 import useForm from "../customhooks/useForm";
 
@@ -15,6 +17,7 @@ export default function SignUp() {
 			<h1>Name</h1>
 			<label htmlFor="name">
 				<input
+					className={styles.inputstyle1}
 					type="name"
 					name="name"
 					placeholder="Name"
@@ -24,8 +27,8 @@ export default function SignUp() {
 			</label>
 			<h1>Email</h1>
 			<label htmlFor="email">
-				<input 
-				className={styles.input__style_1}
+				<input
+					className={styles.inputstyle1}
 					type="email"
 					name="email"
 					placeholder="email"
@@ -37,7 +40,7 @@ export default function SignUp() {
 			<h1>Password</h1>
 			<label htmlFor="password">
 				<input
-				className={styles.input__style_1}
+					className={styles.inputstyle1}
 					type="password"
 					name="password"
 					placeholder="password"
