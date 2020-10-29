@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.bg-a{
+    color: pink;
+}
+
 .img_size {
     margin-bottom: 30px;
     height: 100px;

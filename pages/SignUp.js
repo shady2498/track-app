@@ -4,7 +4,6 @@ import Signup from "../components/SignUp";
 
 export default function SignUp() {
 	return (
-        
         <>
         <div className="row">
              <div className="col-md-6  login-bg-img ">
@@ -23,28 +22,28 @@ export default function SignUp() {
 
         </div>
 
-        <div className="col-md-6 main_logindiv">
+        <div className="col-md-6  styles.main_logindiv">
 
             <div className="row justify-content-center">
                 <div col-md-6>
                     <button className="btn"><i  className="fa fa-home"></i></button>
                 </div>
                 <div col-md-6>
-                    <button style={{backgroundColor: "#1e82d2"}} className="btn"><i  className="fa fa-car"></i></button>
+                    <button style={{backgroundColor: "#1e82d2"}} className="styles.btn"><i  className="fa fa-car"></i></button>
 
                 </div>
             </div>
             <div>
 
-                <h1 className="h1mainstyle"> Sign Up </h1>
+                <h1 className="styles.h1mainstyle"> Sign Up </h1>
             </div>
-            <div className="form_style">
+            <div className="styles.form_style">
             <Signup/>
                 <br/>
 
                 <br/>
 
-                <div className="needaccount">
+                <div className="styles.needaccount">
                     <span>Need an account?</span><span style={{color: "blue"}}> log in</span>
                 </div>
 
