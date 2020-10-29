@@ -14,8 +14,8 @@ export default function Home() {
 				<h1>Soemaknfjkashd</h1>
 			</div> */}
 
-			<SignUp />
-			{/* <SignIn /> */}
+			{/* <SignUp /> */}
+			<SignIn />
 			{/* <Notifications /> */}
 			{/* <Vehicles /> */}
 			{/* <Recordings /> */}
