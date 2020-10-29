@@ -3,12 +3,14 @@ import useForm from "../customhooks/useForm";
 
 export default function SignIn() {
 	const { handleChange, values } = useForm();
+
+	const signInInfo = (event, values) => {
+		event.preventDefault();
+		var myJSON = JSON.stringify(values);
+		console.log(myJSON);
+	};
 	return (
-		<form
-		// onSubmit={handleSubmit((values) => {
-		// 	alert(JSON.stringify(values));
-		// })}
-		>
+		<form onSubmit={(event) => signInInfo(event, values)}>
 			<h1>Name</h1>
 			<label htmlFor="name">
 				<input

@@ -15,11 +15,11 @@ export default function Home() {
 			</div> */}
 
 			{/* <SignUp /> */}
-			{/* <SignIn /> */}
+			<SignIn />
 			{/* <Notifications /> */}
 			{/* <Vehicles /> */}
 			{/* <Recordings /> */}
-			<Search />
+			{/* <Search /> */}
 		</>
 	);
 }
